@@ -17,7 +17,7 @@ docker run -d -p 27018:27017 --name jones_container -v mongo_dados:/data/db mong
 
 # Acessando o terminal interativo do MongoDB (mongosh)
 docker exec -it jones_container mongosh
-```
+
 
 (MONGOSH)
 
